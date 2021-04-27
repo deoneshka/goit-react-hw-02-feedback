@@ -1,11 +1,13 @@
 import React from "react";
+import styles from './FeedbackOptions.module.css'
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     return (
-        <div>
+        <div className={styles.wrapper}>
             {
                 options.map((option) => (
                     <button
+                        className={styles.button}
                         type="button"
                         key={option}
                         value={option}

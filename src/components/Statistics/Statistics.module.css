@@ -1,0 +1,7 @@
+.li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.ul {
+  margin-top: 30px;
+}
